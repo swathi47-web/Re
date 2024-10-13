@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prawns Recipe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<style>
+*{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    color: black;
+    height: 100vh;
+}
+.total { 
+    padding: 10px; 
+    border-radius: 10px;
+    margin: auto;        
+}
+.head {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.dish {
+    width: 50%;
+    height: auto;
+    max-height: 300px;
+    border-radius: 10px;
+    
+    
+}
+.navbar {
+    background-color:black;
+}
+.navbar :hover {
+    color: whitesmoke;
+
+}
+.navbar a {
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+h1 {
+    color:rgb(9, 9, 82);
+    font-family:'Times New Roman', Times, serif;
+}
+.ingredient-instruction {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ingredient, .instruction {
+    width: 48%; 
+    
+}
+
+ul.Ingredients-list {
+    margin: 20px 0;
+    padding-left: 40px;
+    list-style-type: circle;
+}
+ol.Instructions-list {
+    margin: 20px 0;
+    padding-left: 40px;
+    list-style-type:decimal;
+    padding: 50px;
+}
+
+.Ingredients-list li, .Instructions-list li {
+    background: #fff; 
+   
+}
+.ingridents1,.ingridents2,.ingridents3 {
+    background-color: white;
+    padding: 10px;
+    margin: 50px;
+    margin-bottom: 20px;
+}
+
+.time1  {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.time1 th, .time1 td {
+    padding: 5px;
+    border: 1px solid black;
+    
+}
+.pic{
+    width: 80px;
+    height: 40px;
+    border-radius: 100px;
+   
+}
+</style>
+<body>
+    <div class="total">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <a class="navbar-brand" href="#"><img src="https://casuallypeckish.com/wp-content/uploads/2020/09/Butter-garlic-prawns-500x375.jpg" class="pic">Recipe Book</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ms-auto">
+                <a class="nav-item nav-link" href="#ingredients">ingredients</a>
+                <a class="nav-item nav-link" href="#instructions">start cooking</a>
+                <a class="nav-item nav-link" href="#cooking-time">cooking-time</a>
+              </div>
+            </div>
+          </nav>
+        <header class="head">
+            <h1>Prawn's Curry Recipe</h1>
+            <img  class="dish"  src="https://www.thespruceeats.com/thmb/eLbazZpEomjs-VOUi5QLLoiK2d0=/1501x2001/filters:fill(auto,1)/malaiprawns-58a47f345f9b58819ca1fbd8.jpg" alt="recipe">
+        </header>
+            <div class="ingridents1 shadow" >
+                <h1 id="ingredients">Ingredients</h1>
+                    <ul class="Ingredients-list">
+                        <li> 500g prawns, cleaned and deveined</li>
+                        <li>500g prawns, cleaned and deveined</li>
+                        <li>1 tsp turmeric powder</li>
+                        <li>1 tsp red chili powder</li>
+                        <li>Salt to taste</li>
+                        <li>Juice of 1/2 lemon</li>
+                        <li>2 tbsp oil</li>
+                        <li>1 large onion, finely chopped</li>
+                        <li>2-3 cloves garlic, minced</li>
+                        <li>1-inch piece of ginger, grated</li>
+                        <li>2 green chilies, slit</li>
+                        <li>2 medium tomatoes, pureed</li>
+                        <li>1 tsp cumin seeds</li>
+                        <li>1 tsp coriander powder</li>
+                        <li>1/2 tsp garam masala</li>
+                        <li>1 cup coconut milk</li>
+                        <li>Fresh cilantro for garnish</li>
+                    </ul>
+            </div>
+            <div class="d-flex justify-content-center">
+                <a href="#instructions"><button type="button" class="btn btn-primary" id="start">Start Cooking</button></a>
+            </div>
+            <div class="ingridents2 shadow">
+                
+                <h1 id="instructions">Instructions</h2>
+                <ol class="Instructions-list">
+                    <li><b>Marinate the Prawns:</b>Combine cleaned prawns with spices and let sit for 15-20 minutes.</li>
+                    <li><b>Prepare the Base: </b>Heat oil, add cumin seeds, and sauté chopped onions until golden brown.</li>
+                    <li><b>Add Aromatics: </b>Stir in garlic, ginger, and green chilies. Sauté until fragrant.</li>
+                    <li><b>Incorporate Tomatoes:</b> Add pureed tomatoes and cook until oil separates.</li>
+                    <li><b>Cook the Prawns:</b> Add marinated prawns and cook until pink and opaque.</li>
+                    <li><b>Add Coconut Milk:</b> Pour in coconut milk and simmer for 5 minutes.</li>
+                    <li><b>Finish with Spices:</b>Stir in garam masala and adjust seasoning.</li>
+                    <li><b>Garnish and Serve:</b>Garnish with cilantro and serve hot with rice or bread.</li>
+                </ol>
+            </div>
+            <div class="ingridents3 shadow">
+                <h2 id="cooking-time">Cooking Time</h2>
+                <table class="time1">
+                    <tr>
+                        <th>Cooking Time</th>
+                        <th>30 minutes</th>
+                    </tr>
+                    <tr>
+                        <th>Preparation time</th>
+                        <th>25 minutes</th>
+                    </tr>
+                    <tr>
+                        <th>Difficulty Level</th>
+                        <th>Easy</th>
+                    </tr>
+                </table>
+            </div>
+            <div class="d-flex justify-content-center">
+                <a href="#ingredints"><button type="button" class="btn btn-primary" id="end">Go to Top</button></a>
+            </div>    
+    </div>
+
+    
+</body>
+</html>
